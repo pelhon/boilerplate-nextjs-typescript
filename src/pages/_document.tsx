@@ -37,10 +37,11 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang={'en'}>
         <Head>
           <link rel="shortcut icon" href="/img/favicons/icon-512.png" />
           <link rel="apple-touch-icon" href="/img/favicons/icon-512.png" />
+          <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
           <Main />
